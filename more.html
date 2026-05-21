@@ -1,96 +1,91 @@
 <!DOCTYPE html>
 
-<html>
 
 <head>
-
-        <title> HO1_Fernandez </title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimmuel Fernandez | More About Me</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-   <body>
-
-   <table width="100%" border="0" cellpadding="10">
-        <tr>
-            <td align="left"><b>My Homepage</b></td>
-            <td align="center">
-                <a href="index.html" target="_blank">Home</a> | 
-                <a href="more.html" target="_self">More</a> | 
-                <a href="projects.html" target="_blank">Projects</a>
-         </td>
-
-            <td align="right">&nbsp;</td>
-        </tr>
-        
-    </table>
-
-    <hr>
-    <br>
-
-    <h3> Interests </h3>
-
-    <ol>
-
-        <li> Cloud Computing </li>
-        <li> Databasing </li>
-        <li> Gaming </li>
-        <br>
-
-    </ol>
-
-    
-    <p> 
-        <i> Listen to Lifetime Reimagined by ben&ben while browsing! </i>
-    </p>
-
-        <audio controls>
-
-            <source src="Ben&Ben - Lifetime (Reimagined).mp3">
-
-        </audio>
-
-
-
-    <hr>
-
-    <table width="60%" border="0" cellpadding="10">
-
-        <tr>
-            <td align="left"> Favorite Book </td>
-            <td align="center"> Favorite Album</td>
-            <td align="right"> Favorite Movie Scene </td>
-        </tr>
-
-
-    </table>
-
-        <img src="favbook.jpg" width="300" height="300" title="The Count of Monte Cristo by Alexander Dumas">
-        <img src="favalbum.png" width="300" height="300" title="Sound Good Feels Good by 5 Seconds of Summer">
-
-
-    <video width="620" height="300" controls>
-
-        <source src="Rockyscenecorrect.mp4">
-        <source src="rockyscenewebm.webm">
-
-        tag not supported by the browser
-
-    </video>
-
-    <hr>
   
-    <p>
-        Click the logo below to check my <b>github</b>
-    </p>
+    <nav class="navbar">
+        <div class="nav-brand">Rimmuel Fernandez</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="more.html" class="active">More</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </nav>
 
-    <a href="https://github.com/rienxyz" target="_blank">
-        <img src="GitHub-Logo.png" width="175" height="100" alt="github logo">
-    </a>
+    <hr class="divider">
 
-    
 
+    <section class="interests-section">
+        <h2>My Interests</h2>
+        <ul class="interests-list">
+            <li>☁️ Cloud Computing</li>
+            <li>🗄️ Databasing & Data Management</li>
+            <li>🎮 Gaming & Game Development</li>
+        </ul>
+    </section>
+
+  
+    <div class="music-player">
+        <p class="music-note">🎵 Listen to "Lifetime (Reimagined)" by Ben&Ben while browsing! 🎵</p>
+        <audio controls class="audio-player">
+            <source src="../HO2/Video&Audio/Ben&Ben - Lifetime (Reimagined).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <hr class="divider">
+
+  
+    <section class="favorites-section">
+        <h2>My Favorites</h2>
+        
+        <div class="favorites-grid">
+            <div class="favorite-card">
+                <h3>Favorite Book</h3>
+                <img src="../HO2/Pictures/favbook.jpg" alt="The Count of Monte Cristo book cover" class="favorite-img">
+                <p class="favorite-title">The Count of Monte Cristo</p>
+                <p class="favorite-author">by Alexandre Dumas</p>
+            </div>
+
+            <div class="favorite-card">
+                <h3>Favorite Album</h3>
+                <img src="../HO2/Pictures/favalbum.png" alt="Sounds Good Feels Good album cover" class="favorite-img">
+                <p class="favorite-title">Sounds Good Feels Good</p>
+                <p class="favorite-author">by 5 Seconds of Summer</p>
+            </div>
+
+            <div class="favorite-card">
+                <h3>Favorite Movie Scene</h3>
+                <video class="favorite-video" controls>
+                    <source src="../HO2/Video&Audio/Rockyscenecorrect.mp4" type="video/mp4">
+                    <source src="../HO2/Video&Audio/rockyscenewebm.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="favorite-title">Rocky Training Montage</p>
+                <p class="favorite-author">From the movie "Rocky"</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- GitHub Link -->
+    <div class="github-section">
+        <p>Click the logo below to check my <strong>GitHub</strong></p>
+        <a href="https://github.com/rienxyz" target="_blank" class="github-link">
+            <img src="../HO1/Pictures/GitHub-Logo.png" alt="GitHub logo" class="github-logo">
+        </a>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Rimmuel Fernandez. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>

@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 
-<head>
 
-        <title> HO1_Fernandez </title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimmuel Fernandez | Homepage</title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-   <table width="100%" border="0" cellpadding="10">
-        <tr>
-            <td align="left"><b>My Homepage</b></td>
-            <td align="center">
-                <a href="index.html" target="_self">Home</a> | 
-                <a href="more.html" target="_blank">More</a> | 
-                <a href="projects.html" target="_blank">Projects</a>
-         </td>
+    <nav class="navbar">
+        <div class="nav-brand">Rimmuel Fernandez</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="more.html">More</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </nav>
 
-            <td align="right">&nbsp;</td>
-        </tr>
-    </table>
-    <hr>
-    <br>
-
-    <img src="picture1.jpg" width="150" height="150" alt="my photo">
+    <hr class="divider">
 
 
-    <section>
-        <h3> About me:</h3> 
-        <p> Hi everyone! im Rimmuel Fernandez studying at De La Salle University Manila under BS-Information Technology </p>
+    <div class="profile-container">
+        <img src="../HO2/Pictures/picture1.jpg" alt="Rimmuel Fernandez profile photo" class="profile-img">
+    
+    </div>
 
+    <section class="about-section">
+        <h2>About Me</h2>
+        <p>Hi everyone! I'm Rimmuel Fernandez studying at De La Salle University Manila under BS-Information Technology. I'm passionate about technology, programming, and creating innovative solutions to real-world problems.</p> 
+        <p> ID#: 12344931</p>
     </section>
-    <hr>
 
-    <header>
+    <hr class="divider">
 
-        <h2> Educational Background </h2>
 
-    </header>
+    <section class="education-section">
+        <h2>Educational Background</h2>
+        
+        <table class="education-table">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Institution</th>
+                    <th>Role / Degree</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023 - Present</td>
+                    <td>De La Salle University - Manila</td>
+                    <td>BS-Information Technology</td>
+                </tr>
+                <tr>
+                    <td>2020 - 2022</td>
+                    <td>Cavite National High School - SHS</td>
+                    <td>STEM Student</td>
+                </tr>
+                <tr>
+                    <td>2016 - 2020</td>
+                    <td>Cavite National High School</td>
+                    <td>STE Student</td>
+                </tr>
+                <tr>
+                    <td>2012 - 2016</td>
+                    <td>Ladislao Diwa Elementary School</td>
+                    <td>Student</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
-    <table style="width:70%" border="1">
+    <hr class="divider">
 
-        <tr>
-            <th> Year </th>
-            <th> Institution </th>
-            <th> Role / Degree </th>
-        </tr>
+    <div class="github-section">
+        <p>Click the logo below to check my <strong>GitHub</strong></p>
+        <a href="https://github.com/rienxyz" target="_blank" class="github-link">
+            <img src="../HO2/Pictures/GitHub-Logo.png" alt="GitHub logo" class="github-logo">
+        </a>
+    </div>
 
-        <tr>
-            <td align="center"> 2023 - Present </td>
-            <td align="center"> De La Salle University-Manila </td>
-            <td align="center"> BS-Information Technology </td>
-         </tr>
-
-         <tr>
-            <td align="center"> 2016 - 2020 </td>
-            <td align="center"> Cavite National High School </td>
-            <td align="center"> STE Student </td>
-         </tr>
-
-         <tr>
-            <td align="center"> 2020 - 2022 </td>
-            <td align="center"> Cavite National High School - SHS </td>
-            <td align="center"> STEM Student </td>
-         </tr>
-
-         <tr>
-            <td align="center"> 2012 - 2016 </td>
-            <td align="center"> Ladislao Diwa Elementary School </td>
-            <td align="center"> Student </td>
-         </tr>
-        <br>
-    </table>
-
-    <hr>
-  
-    <p>
-        Click the logo below to check my <b>github</b>
-    </p>
-
-    <a href="https://github.com/rienxyz" target="_blank">
-        <img src="GitHub-Logo.png" width="175" height="100" alt="github logo">
-    </a>
-
+    <footer class="footer">
+        <p>&copy; 2026 Rimmuel Fernandez. All rights reserved.</p>
+    </footer>
 </body>
+</html>
